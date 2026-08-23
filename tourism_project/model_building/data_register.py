@@ -54,7 +54,6 @@ if __name__ == "__main__":
     if 'PROJECT_ROOT' not in locals():
         PROJECT_ROOT = Path(__file__).resolve().parent.parent # Fallback for direct execution
     df = validate_dataset(DATA_PATH)
-"""
 
 # Write the content to the file
 with open(file_path, "w") as f:
